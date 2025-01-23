@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 (cd lambdas/presign; rm -f lambda.zip; zip lambda.zip handler.py)
 
