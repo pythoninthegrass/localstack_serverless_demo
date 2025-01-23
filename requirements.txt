@@ -1,0 +1,12 @@
+awscli
+awscli-local
+black
+boto3
+mypy-boto3-lambda
+mypy-boto3-s3
+mypy-boto3-sns
+mypy-boto3-ssm
+Pillow==9.2.0
+pytest
+requests>=2.20
+terraform-local

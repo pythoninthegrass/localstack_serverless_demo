@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "localstack-serverless-demo"
+version = "0.1.0"
+description = ""
+authors = [
+    "Thomas Rausch <thomas@thrau.at>",
+    "pythoninthegrass <4097471+pythoninthegrass@users.noreply.github.com>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+awscli = "^1.37.4"
+awscli-local = "^0.22.0"
+black = "^24.10.0"
+boto3 = "^1.36.4"
+mypy-boto3-lambda = "^1.36.0"
+mypy-boto3-s3 = "^1.36.0"
+mypy-boto3-sns = "^1.36.3"
+mypy-boto3-ssm = "^1.36.0"
+pillow = "9.2.0"
+pytest = "^8.3.4"
+requests = ">=2.20"
+terraform-local = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
