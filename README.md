@@ -23,7 +23,7 @@ This sample demonstrates how to build a serverless image resizing application us
 
 The following diagram shows the architecture that this sample application builds and deploys:
 
-![Architecture overview](https://user-images.githubusercontent.com/3996682/229322761-92f52eec-5bfb-412a-a3cb-8af4ee1fed24.png)
+![Architecture overview](images/architecture.png)
 
 - [S3 Buckets](https://docs.localstack.cloud/aws/services/s3/) for storing original and resized images, plus hosting the static website
 - [Lambda Functions](https://docs.localstack.cloud/aws/services/lambda/) for generating pre-signed URLs, image processing, and listing images.
